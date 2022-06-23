@@ -18,7 +18,7 @@ def addVisitor():
         return value
 
 @app.route('/')
-def hello_geek():
+def countVisitor():
     visitor = addVisitor()
     return f"<h1>This is the {visitor} visitor</h2>"
 
