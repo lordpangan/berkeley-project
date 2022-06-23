@@ -1,0 +1,6 @@
+k8s-sample/
+.gitignore
+.dockerignore
+README.md
+.git
+venv/
