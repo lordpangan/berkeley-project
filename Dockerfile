@@ -2,6 +2,10 @@
 
 FROM python:3.8-slim-buster
 
+LABEL maintainer="lord pangan <lord.pangan@gmail.com>" \
+  description="visitor counter app" \
+  org.label-schema.vcs-url="git@github.com:lordpangan/berkeley-project.git"
+
 WORKDIR /python-docker
 
 COPY requirements.txt requirements.txt
